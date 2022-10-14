@@ -1,0 +1,12 @@
+@import "https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap";
+
+$mulish-f: 'Mulish', sans-serif;
+$poppins-f: 'Poppins', sans-serif;
+$roboto-f: 'Roboto', sans-serif;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+
+  @apply font-roboto m-0 p-0;
+}

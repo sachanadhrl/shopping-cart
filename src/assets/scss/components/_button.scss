@@ -1,0 +1,9 @@
+.btn {
+  @apply font-mulish text-white text-lg font-extrabold rounded-2xl flex justify-center items-center gap-4 p-[14px];
+
+  &-primary {
+    background: linear-gradient(311.55deg, #01ACC4 7.49%, #29C7CF 50.69%, #4CCBCE 111.84%);
+  }
+
+  &-fluid { @apply w-full; }
+}

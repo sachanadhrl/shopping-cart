@@ -1,0 +1,13 @@
+table {
+  thead tr {
+    @apply text-left text-gray-500 text-lg;
+
+    th { @apply pb-3; }
+  } 
+
+  tbody tr {
+    @apply text-gray-400;
+
+    td { @apply py-3; }
+  } 
+}
